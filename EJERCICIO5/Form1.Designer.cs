@@ -39,9 +39,9 @@ namespace EJERCICIO5
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(425, 46);
+            this.button1.Location = new System.Drawing.Point(376, 79);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 51);
+            this.button1.Size = new System.Drawing.Size(84, 64);
             this.button1.TabIndex = 12;
             this.button1.Text = "Ejecutar";
             this.button1.UseVisualStyleBackColor = true;
@@ -50,41 +50,44 @@ namespace EJERCICIO5
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(234, 80);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(92, 114);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 17);
+            this.label3.Size = new System.Drawing.Size(109, 29);
             this.label3.TabIndex = 11;
             this.label3.Text = "No Filas:";
             // 
             // textBoFilas
             // 
-            this.textBoFilas.Location = new System.Drawing.Point(332, 75);
+            this.textBoFilas.Location = new System.Drawing.Point(260, 114);
             this.textBoFilas.Name = "textBoFilas";
-            this.textBoFilas.Size = new System.Drawing.Size(69, 22);
+            this.textBoFilas.Size = new System.Drawing.Size(85, 22);
             this.textBoFilas.TabIndex = 10;
             // 
             // textBoXColum
             // 
-            this.textBoXColum.Location = new System.Drawing.Point(332, 47);
+            this.textBoXColum.Location = new System.Drawing.Point(263, 86);
             this.textBoXColum.Name = "textBoXColum";
-            this.textBoXColum.Size = new System.Drawing.Size(69, 22);
+            this.textBoXColum.Size = new System.Drawing.Size(75, 22);
             this.textBoXColum.TabIndex = 9;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(234, 52);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(92, 86);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 17);
+            this.label2.Size = new System.Drawing.Size(165, 29);
             this.label2.TabIndex = 8;
             this.label2.Text = "No Columnas:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(265, 15);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(123, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 17);
+            this.label1.Size = new System.Drawing.Size(206, 29);
             this.label1.TabIndex = 7;
             this.label1.Text = "Tamaño de Matriz";
             // 
@@ -92,7 +95,7 @@ namespace EJERCICIO5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(560, 228);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBoFilas);
